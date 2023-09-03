@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!---- NOTE: Creating multi-page website --->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Castles</title>
+    <link href="planning.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<p>
+<!---- Note: Navigation Bar -->
+    <ul>
+		<li><a href="planning.html">Home</a></li>
+		<li><a href="form.html">Form</a></li>
+		<li><a href="castle.html">Castles</a></li>
+		<li><a href="resource.html">Resources</a></li>
+    </ul>
+    <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name:<br />
+        <input type="text" name="firstName" /></label><br />
+
+        <label>Last Name:<br />
+        <input type="text" name="lastName" /></label><br />
+
+        <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+
+        <p>How likely will you visit Ireland?</p>
+            <input type="checkbox" name="ireland" value="very likely" /> Very Likely
+            <input type="checkbox" name="ireland" value="maybe" /> Maybe
+            <input type="checkbox" name="ireland" value="never" /> Never
+        </p>
+        <p>Questions, Comments or Concerns</p>
+        <textarea name="comments"></textarea>
+
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" id="Subscribe" />
+    </fieldset>
+</body>
+</html>
